@@ -19,11 +19,11 @@
             </div>
             <div class="form-group">
                 <label asp-for="Preco" class="control-label"></label>
-                <input asp-for="Preco" class="form-control" />
+                <input asp-for="Preco" class="form-control" id="precoProd" />
                 <span asp-validation-for="Preco" class="text-danger"></span>
             </div>
             <div class="form-group" style="margin-top:1rem;">
-                <input type="submit" value="Guardar" class="btn btn-outline-success" />
+                <input id="saveProd" type="submit" value="Guardar" class="btn btn-outline-success" />
             </div>
         </form>
     </div>
@@ -31,4 +31,15 @@
 
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+
+    <script>
+        // jQuery('#saveProd').on('click', function(){
+        //     debugger;
+        //     const precoInput = jQuery('#precoProd');
+        //     let precoValue = precoInput.val();
+
+        //     precoValue = precoValue.replace('.', ',');
+        //     precoInput.val(precoValue);
+        // });
+    </script>
 }

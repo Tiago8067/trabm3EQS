@@ -28,6 +28,21 @@ else
     app.UseHsts();
 }
 
+// Add the localization middleware
+var supportedCultures = new[] { "en-US", "pt-BR" };
+var localizationOptions = new RequestLocalizationOptions()
+    .SetDefaultCulture("pt-BR")
+    .AddSupportedCultures(supportedCultures)
+    .AddSupportedUICultures(supportedCultures);
+
+//var supportedCultures = new[] { "pt-PT" };
+//var localizationOptions = new RequestLocalizationOptions()
+//    .SetDefaultCulture("pt-PT")
+//    .AddSupportedCultures(supportedCultures)
+//    .AddSupportedUICultures(supportedCultures);
+
+app.UseRequestLocalization(localizationOptions);
+
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 
