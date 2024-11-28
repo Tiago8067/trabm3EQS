@@ -1,0 +1,36 @@
+﻿@using Microsoft.AspNetCore.Identity
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
+
+@* @if (!SignInManager.IsSignedIn(User))
+{
+	<footer class="border-top footer text-muted">
+		<div class="container">
+			&copy; 2024 - testAuten - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+		</div>
+	</footer>
+} *@
+
+@if (SignInManager.IsSignedIn(User))
+{
+	<footer class="border-top footer text-muted">
+		<div class="container d-flex justify-content-between align-items-center" style="padding: 12px 0px 12px 0px;">
+			<div>
+				&copy; @DateTime.Now.ToShortDateString() - Tiago Soares nº222340
+			</div>
+			<div>
+				soarestiago@ipvc.pt
+			</div>
+		</div>
+	</footer>
+}
+
+
+@* @if (!User.Identity.IsAuthenticated)
+{
+	<footer class="border-top footer text-muted">
+		<div class="container">
+			&copy; 2024 - testAuten - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+		</div>
+	</footer>
+} *@

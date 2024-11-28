@@ -1,0 +1,134 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - testAuten</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/testAuten.styles.css" asp-append-version="true" />
+
+    <link href="https://cdn.lineicons.com/4.0/lineicons.css" rel="stylesheet" />
+    <link href="https://cdn.lineicons.com/5.0/lineicons.css" rel="stylesheet">
+</head>
+@* <body class="d-flex flex-column min-vh-100"> *@
+<body>
+@*     <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container-fluid">
+
+                <button class="btn btn-primary" id="toggle-sidebar">Toggle Sidebar</button>
+
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">testAuten</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                        </li>
+                    </ul>
+                    <partial name="_LoginPartial" />
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+  @*   <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div> *@
+
+    @*<div class="container-fluid">
+        <div class="row">
+            <!-- Sidebar -->
+            <div class="col-md-3 bg-light border-end" id="sidebar">
+                <h4 class="p-3">Menu</h4>
+                <ul class="nav flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link" asp-area="" asp-controller="Produtos" asp-action="Index">Produtos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-area="" asp-controller="Clientes" asp-action="Index">Clientes</a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Main Content -->
+            <div class="col-md-9">
+                <main role="main" class="pb-3">
+                    @RenderBody()
+                </main>
+            </div>
+        </div>
+    </div> *@
+
+
+    @using Microsoft.AspNetCore.Identity
+    @inject SignInManager<IdentityUser> SignInManager
+    @inject UserManager<IdentityUser> UserManager
+
+
+    <header>
+        <nav id="navbar" class="navbar navbar-expand-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container-fluid">
+                @* <button class="btn btn-outline-primary ms-3 sidebar-logo" id="toggle-sidebar">Toggle Sidebar<i class="lni lni-menu-hamburger-1"></i></button> *@
+                @if (SignInManager.IsSignedIn(User))
+{
+                <button class="btn btn-outline-primary ms-3 me-3 sidebar-logo" id="toggle-sidebar"><i class="lni lni-menu-hamburger-1"></i></button>
+}
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Trabalho Prático EQS</a>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    @* <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                        </li>
+                    </ul> *@
+                    <ul class="navbar-nav flex-grow-1"></ul>
+                    <partial name="_LoginPartial" />
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="d-flex flex-grow-1">
+        <!-- Sidebar -->
+        <partial name="_SideBar" />
+
+        <!-- Main Content -->
+        <div id="content" class="col-md-10 flex-grow-1 content">
+            <main role="main" class="pb-3">
+                @RenderBody()
+            </main>
+        </div>
+    </div>
+
+    @* @Html.Partial("_Footer") *@
+    <partial name="_Footer" />
+    @* @if (SignInManager.IsSignedIn(User))
+    {
+        @Html.Partial("_Footer")
+    } *@
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    <script>
+        document.getElementById("toggle-sidebar").addEventListener("click", function () {
+            const sidebar = document.getElementById("sidebar");
+            sidebar.classList.toggle("d-none");
+        });
+    </script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

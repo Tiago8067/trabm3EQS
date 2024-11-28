@@ -1,0 +1,46 @@
+﻿@model testAuten.Models.Cliente
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Editar Ficha</h1>
+
+@* <h4>Cliente</h4> *@
+@* <div class="d-flex justify-content-between align-items-center">
+    <h4 style="margin-bottom:0px;">Cliente</h4>
+    <a asp-action="Index" class="btn btn-secondary">Voltar para a Lista</a>
+</div> *@
+@* <partial name="Subtitlecshtml" /> *@
+<partial name="_SubtitlePageList" model='new SubtitleViewModel { Title = " Cliente", ButtonValue = "Voltar para a Lista" }' />
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Id" />
+            <div class="form-group">
+                <label asp-for="Nome" class="control-label"></label>
+                <input asp-for="Nome" class="form-control" />
+                <span asp-validation-for="Nome" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Email" class="control-label"></label>
+                <input asp-for="Email" class="form-control" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+            <div class="form-group" style="margin-top:1rem;">
+                <input type="submit" value="Guardar" class="btn btn-outline-success" />
+            </div>
+        </form>
+    </div>
+</div>
+
+@* <div>
+    <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+</div>
+ *@
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

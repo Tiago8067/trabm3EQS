@@ -1,0 +1,251 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+/*body {
+  margin-bottom: 60px;
+}*/
+
+.containerAuth {
+    border: 1px solid #000000;
+    border-radius: 8px;
+    max-width: 600px;
+    /*margin: 50px auto;*/
+    margin:auto;
+    background-color: #f9f9f9;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+    .containerAuth h1 {
+        text-align: center;
+        margin-bottom: 20px;
+        color: #333;
+    }
+
+    .containerAuth .form-floating {
+        margin-bottom: 15px;
+    }
+
+    .containerAuth .checkbox label {
+        font-size: 0.9rem;
+        color: #555;
+    }
+
+    .containerAuth .btn-primary {
+        background-color: #007bff;
+        border-color: #007bff;
+        font-size: 1rem;
+        padding: 10px 20px;
+        border-radius: 5px;
+    }
+
+    .containerAuth a {
+        color: #007bff;
+        text-decoration: none;
+    }
+
+        .containerAuth a:hover {
+            text-decoration: underline;
+        }
+
+    .containerAuth p {
+        margin: 10px 0;
+        text-align: center;
+    }
+
+
+/*#sidebar {
+    max-width: 264px;
+    min-width: 264px;
+    transition: all 0.35s ease-in-out;
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+}
+
+    #sidebar.collapsed {
+        margin-left: -264px;
+    }
+
+.toggler-btn {
+    background-color: transparent;
+    cursor: pointer;
+    border: 0;
+}
+
+    .toggler-btn i {
+        font-size: 1.75rem;
+        color: #000;
+        font-weight: 1000;
+    }
+
+.navbar {
+    padding: 1.15rem 1.5rem;
+    border-bottom: 2px dashed #b3a8a8;
+}
+
+.sidebar-nav {
+    flex: 1 1 auto;
+}
+
+.sidebar-logo {
+    padding: 1.15rem 1.5rem;
+    text-align: center;
+}
+
+    .sidebar-logo a {
+        color: #FFF;
+        font-weight: 800;
+        font-size: 1.5rem;
+    }
+
+.sidebar-header {
+    color: #FFF;
+    font-size: .75rem;
+    padding: 1.5rem 1.5rem .375rem;
+}
+
+a.sidebar-link {
+    padding: .625rem 1.625rem;
+    color: #FFF;
+    position: relative;
+    transition: all 0.35s;
+    display: block;
+    font-size: 1.25rem;
+}
+
+    a.sidebar-link:hover {
+        background-color: #f9f6f630;
+    }
+
+.sidebar-link[data-bs-toggle="collapse"]::after {
+    border: solid;
+    border-width: 0 .075rem .075rem 0;
+    content: "";
+    display: inline-block;
+    padding: 2px;
+    position: absolute;
+    right: 1.5rem;
+    top: 1.4rem;
+    transform: rotate(-135deg);
+    transition: all .2s ease-out;
+}
+
+.sidebar-link[data-bs-toggle="collapse"].collapsed::after {
+    transform: rotate(45deg);
+    transition: all .2s ease-out;
+}*/
+
+/* Screen size less than 768px */
+
+/*@media (max-width:768px) {
+
+    .sidebar-toggle {
+        margin-left: -264px;
+    }
+
+    #sidebar.collapsed {
+        margin-left: 0;
+    }
+}*/
+
+/* Sidebar styles */
+/*#wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+#sidebar-wrapper {
+    min-width: 250px;
+    max-width: 250px;
+    height: 100vh;
+    overflow-y: auto;
+    background: #f8f9fa;
+    transition: all 0.3s;
+}
+
+#page-content-wrapper {
+    flex: 1;
+    padding: 20px;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+    margin-left: -250px;
+}*/
+
+
+/***segunda tentativa*/
+/*#sidebar {
+    overflow-y: auto;*/ /* Scrollable content if needed */
+    /*transition: all 0.3s ease-in-out;*/ /* Smooth transition */
+/*}
+
+#content {
+    margin-left: 250px;*/ /* Align content next to the sidebar */
+    /*transition: margin-left 0.3s ease-in-out;*/ /* Smooth transition */
+/*}*/
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensure the body spans the full viewport height */
+}
+
+#sidebar {
+    min-height: 0; /* Reset default browser styling */
+    height: auto; /* Allow flexbox to control height */
+    flex: 0 0 auto; /* Ensure the sidebar does not stretch */
+    overflow-y: auto; /* Add scrolling if content overflows */
+}
+
+footer {
+    flex-shrink: 0; /* Footer remains fixed at the bottom */
+}
+
+main {
+    flex-grow: 1; /* The main content expands to fill the remaining space */
+}
+
+.d-flex.flex-grow-1 {
+    flex: 1; /* Ensure the wrapper occupies the remaining vertical space between header and footer */
+}
+
+#navbar {
+    margin-bottom: 0 !important;
+    padding-bottom: 0px;
+}
+
+.content{
+    /*margin-top:16px;
+    padding-top:8px;*/
+    padding:32px;
+}
+
+.click-check {
+    cursor: pointer;
+    padding: 8px;
+    border: 1px solid transparent;
+}
+
+    .click-check:hover {
+        border: 1px solid #007bff;
+        border-radius: 5px;
+        /*background-color: #65b8fc;*/
+        padding: 8px;
+    }
