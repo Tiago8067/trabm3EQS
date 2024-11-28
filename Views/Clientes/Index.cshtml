@@ -32,12 +32,6 @@
 					@Html.DisplayFor(modelItem => item.Email)
 				</td>
 				<td>
-					@* <a asp-action="Edit" asp-route-id="@item.Id">Editar</a> | *@@* 
-					<input asp-action="Edit" asp-route-id="@item.Id" type="submit" value="Editar" class="btn btn-primary" /> |
-					<input asp-action="Details" asp-route-id="@item.Id" type="submit" value="Detalhes" class="btn btn-info" /> |
-					<input asp-action="Delete" asp-route-id="@item.Id" type="submit" value="Apagar" class="btn btn-danger" /> *@
-					@* <a asp-action="Details" asp-route-id="@item.Id">Detalhes</a> |
-					<a asp-action="Delete" asp-route-id="@item.Id">Apagar</a> *@
 					<a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-primary btn-sm">Editar</a> |
 					<a asp-action="Details" asp-route-id="@item.Id" class="btn btn-info btn-sm">Detalhes</a> |
 					<a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger btn-sm" >Apagar</a>

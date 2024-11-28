@@ -2,15 +2,6 @@
 @inject SignInManager<IdentityUser> SignInManager
 @inject UserManager<IdentityUser> UserManager
 
-@* @if (!SignInManager.IsSignedIn(User))
-{
-	<footer class="border-top footer text-muted">
-		<div class="container">
-			&copy; 2024 - testAuten - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-		</div>
-	</footer>
-} *@
-
 @if (SignInManager.IsSignedIn(User))
 {
 	<footer class="border-top footer text-muted">
@@ -24,13 +15,3 @@
 		</div>
 	</footer>
 }
-
-
-@* @if (!User.Identity.IsAuthenticated)
-{
-	<footer class="border-top footer text-muted">
-		<div class="container">
-			&copy; 2024 - testAuten - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-		</div>
-	</footer>
-} *@

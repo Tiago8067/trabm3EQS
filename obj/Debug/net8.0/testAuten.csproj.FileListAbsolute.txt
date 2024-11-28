@@ -295,3 +295,4 @@ C:\Users\Utilizador\source\repos\testAuten\testAuten\bin\Debug\net8.0\runtimes\w
 C:\Users\Utilizador\source\repos\testAuten\testAuten\bin\Debug\net8.0\runtimes\win-arm64\native\e_sqlite3.dll
 C:\Users\Utilizador\source\repos\testAuten\testAuten\bin\Debug\net8.0\runtimes\win-x64\native\e_sqlite3.dll
 C:\Users\Utilizador\source\repos\testAuten\testAuten\bin\Debug\net8.0\runtimes\win-x86\native\e_sqlite3.dll
+C:\Users\Utilizador\source\repos\testAuten\testAuten\obj\Debug\net8.0\testAuten.sourcelink.json

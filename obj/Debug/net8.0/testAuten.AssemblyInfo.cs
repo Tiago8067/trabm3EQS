@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("testAuten")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e9b4a83115db79cadbeee7211774c757eccc8ae1")]
 [assembly: System.Reflection.AssemblyProductAttribute("testAuten")]
 [assembly: System.Reflection.AssemblyTitleAttribute("testAuten")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
