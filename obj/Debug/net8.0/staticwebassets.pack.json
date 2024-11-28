@@ -5,8 +5,16 @@
       "PackagePath": "staticwebassets\\testAuten.xunbayrsng.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\Utilizador\\source\\repos\\testAuten\\testAuten\\wwwroot\\css\\auth.css",
+      "PackagePath": "staticwebassets\\css\\auth.css"
+    },
+    {
       "Id": "C:\\Users\\Utilizador\\source\\repos\\testAuten\\testAuten\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\Utilizador\\source\\repos\\testAuten\\testAuten\\wwwroot\\css\\site.min.css",
+      "PackagePath": "staticwebassets\\css\\site.min.css"
     },
     {
       "Id": "C:\\Users\\Utilizador\\source\\repos\\testAuten\\testAuten\\wwwroot\\favicon.ico",
@@ -15,6 +23,10 @@
     {
       "Id": "C:\\Users\\Utilizador\\source\\repos\\testAuten\\testAuten\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\Utilizador\\source\\repos\\testAuten\\testAuten\\wwwroot\\js\\site.min.js",
+      "PackagePath": "staticwebassets\\js\\site.min.js"
     },
     {
       "Id": "C:\\Users\\Utilizador\\source\\repos\\testAuten\\testAuten\\wwwroot\\lib\\bootstrap\\LICENSE",

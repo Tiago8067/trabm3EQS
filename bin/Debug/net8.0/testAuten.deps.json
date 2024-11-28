@@ -8,6 +8,8 @@
     ".NETCoreApp,Version=v8.0": {
       "testAuten/1.0.0": {
         "dependencies": {
+          "BuildBundlerMinifier": "3.2.449",
+          "BundlerMinifier.Core": "3.2.449",
           "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": "8.0.11",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "8.0.11",
           "Microsoft.AspNetCore.Identity.UI": "8.0.11",
@@ -52,6 +54,19 @@
           "lib/netstandard2.0/Azure.Identity.dll": {
             "assemblyVersion": "1.11.4.0",
             "fileVersion": "1.1100.424.31005"
+          }
+        }
+      },
+      "BuildBundlerMinifier/3.2.449": {},
+      "BundlerMinifier.Core/3.2.449": {
+        "dependencies": {
+          "NUglify": "1.5.14",
+          "Newtonsoft.Json": "13.0.3"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/dotnet-bundle.dll": {
+            "assemblyVersion": "3.2.449.0",
+            "fileVersion": "3.2.449.0"
           }
         }
       },
@@ -1763,6 +1778,14 @@
           }
         }
       },
+      "NUglify/1.5.14": {
+        "runtime": {
+          "lib/netstandard2.0/NUglify.dll": {
+            "assemblyVersion": "1.5.14.0",
+            "fileVersion": "1.5.14.0"
+          }
+        }
+      },
       "SQLitePCLRaw.bundle_e_sqlite3/2.1.6": {
         "dependencies": {
           "SQLitePCLRaw.lib.e_sqlite3": "2.1.6",
@@ -2191,6 +2214,20 @@
       "sha512": "sha512-Sf4BoE6Q3jTgFkgBkx7qztYOFELBCo+wQgpYDwal/qJ1unBH73ywPztIJKXBXORRzAeNijsuxhk94h0TIMvfYg==",
       "path": "azure.identity/1.11.4",
       "hashPath": "azure.identity.1.11.4.nupkg.sha512"
+    },
+    "BuildBundlerMinifier/3.2.449": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-uA9sYDy4VepL3xwzBTLcP2LyuVYMt0ZIT3gaSiXvGoX15Ob+rOP+hGydhevlSVd+rFo+Y+VQFEHDuWU8HBW+XA==",
+      "path": "buildbundlerminifier/3.2.449",
+      "hashPath": "buildbundlerminifier.3.2.449.nupkg.sha512"
+    },
+    "BundlerMinifier.Core/3.2.449": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-8ssF9o8PavO/YUh1rA/xz2qmNfm7FjC3UxkP7C8BMo2fvSodpWpeUB6/0ISRgq4U3T6+i7+WuAqlSLWHo3n/2w==",
+      "path": "bundlerminifier.core/3.2.449",
+      "hashPath": "bundlerminifier.core.3.2.449.nupkg.sha512"
     },
     "Humanizer/2.14.1": {
       "type": "package",
@@ -3101,6 +3138,13 @@
       "sha512": "sha512-v/GGlIj2dd7svplFmASWEueu62veKW0MrMtBaZ7QG8aJTSGv2yE+pgUGhXRcQ4nxNOEq/wLBrz1vkth/1SND7A==",
       "path": "nuget.versioning/6.11.0",
       "hashPath": "nuget.versioning.6.11.0.nupkg.sha512"
+    },
+    "NUglify/1.5.14": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LosWK9I+Ncd235gxr7qNm+CaKeUr5FoOWPvPC0bRrf+McDf8/pcH2k2pyK8o2PuSImKss+jgXDzIkCvC2GSqRA==",
+      "path": "nuglify/1.5.14",
+      "hashPath": "nuglify.1.5.14.nupkg.sha512"
     },
     "SQLitePCLRaw.bundle_e_sqlite3/2.1.6": {
       "type": "package",

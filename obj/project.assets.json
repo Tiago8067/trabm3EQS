@@ -47,6 +47,29 @@
           }
         }
       },
+      "BuildBundlerMinifier/3.2.449": {
+        "type": "package",
+        "build": {
+          "build/BuildBundlerMinifier.targets": {}
+        }
+      },
+      "BundlerMinifier.Core/3.2.449": {
+        "type": "package",
+        "dependencies": {
+          "NUglify": "1.5.14",
+          "Newtonsoft.Json": "9.0.1"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/dotnet-bundle.dll": {
+            "related": ".runtimeconfig.json"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/dotnet-bundle.dll": {
+            "related": ".runtimeconfig.json"
+          }
+        }
+      },
       "Humanizer/2.14.1": {
         "type": "package",
         "dependencies": {
@@ -2246,6 +2269,19 @@
           "lib/netstandard2.0/NuGet.Versioning.dll": {}
         }
       },
+      "NUglify/1.5.14": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/NUglify.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/NUglify.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "SQLitePCLRaw.bundle_e_sqlite3/2.1.6": {
         "type": "package",
         "dependencies": {
@@ -3101,6 +3137,56 @@
         "azureicon.png",
         "lib/netstandard2.0/Azure.Identity.dll",
         "lib/netstandard2.0/Azure.Identity.xml"
+      ]
+    },
+    "BuildBundlerMinifier/3.2.449": {
+      "sha512": "uA9sYDy4VepL3xwzBTLcP2LyuVYMt0ZIT3gaSiXvGoX15Ob+rOP+hGydhevlSVd+rFo+Y+VQFEHDuWU8HBW+XA==",
+      "type": "package",
+      "path": "buildbundlerminifier/3.2.449",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/BuildBundlerMinifier.targets",
+        "buildbundlerminifier.3.2.449.nupkg.sha512",
+        "buildbundlerminifier.nuspec",
+        "tools/net46/BundlerMinifier.dll",
+        "tools/net46/NUglify.dll",
+        "tools/net46/Newtonsoft.Json.dll",
+        "tools/netcoreapp2.0/BundlerMinifier.dll",
+        "tools/netcoreapp2.0/NUglify.dll",
+        "tools/netcoreapp2.0/Newtonsoft.Json.dll",
+        "tools/netcoreapp3.0/BundlerMinifier.dll",
+        "tools/netcoreapp3.0/NUglify.dll",
+        "tools/netcoreapp3.0/Newtonsoft.Json.dll",
+        "tools/netcoreapp3.1/BundlerMinifier.dll",
+        "tools/netcoreapp3.1/NUglify.dll",
+        "tools/netcoreapp3.1/Newtonsoft.Json.dll",
+        "tools/netstandard1.3/BundlerMinifier.dll",
+        "tools/netstandard1.3/NUglify.dll",
+        "tools/netstandard1.3/Newtonsoft.Json.dll"
+      ]
+    },
+    "BundlerMinifier.Core/3.2.449": {
+      "sha512": "8ssF9o8PavO/YUh1rA/xz2qmNfm7FjC3UxkP7C8BMo2fvSodpWpeUB6/0ISRgq4U3T6+i7+WuAqlSLWHo3n/2w==",
+      "type": "package",
+      "path": "bundlerminifier.core/3.2.449",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "bundlerminifier.core.3.2.449.nupkg.sha512",
+        "bundlerminifier.core.nuspec",
+        "lib/net452/dotnet-bundle.exe",
+        "lib/netcoreapp1.0/dotnet-bundle.dll",
+        "lib/netcoreapp1.0/dotnet-bundle.runtimeconfig.json",
+        "lib/netcoreapp2.0/dotnet-bundle.dll",
+        "lib/netcoreapp2.0/dotnet-bundle.runtimeconfig.json",
+        "lib/netcoreapp3.0/dotnet-bundle.dll",
+        "lib/netcoreapp3.0/dotnet-bundle.runtimeconfig.json",
+        "lib/netcoreapp3.1/dotnet-bundle.dll",
+        "lib/netcoreapp3.1/dotnet-bundle.runtimeconfig.json",
+        "lib/netstandard2.0/dotnet-bundle.dll",
+        "prefercliruntime/prefercliruntime"
       ]
     },
     "Humanizer/2.14.1": {
@@ -6947,6 +7033,25 @@
         "nuget.versioning.nuspec"
       ]
     },
+    "NUglify/1.5.14": {
+      "sha512": "LosWK9I+Ncd235gxr7qNm+CaKeUr5FoOWPvPC0bRrf+McDf8/pcH2k2pyK8o2PuSImKss+jgXDzIkCvC2GSqRA==",
+      "type": "package",
+      "path": "nuglify/1.5.14",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net35/NUglify.dll",
+        "lib/net35/NUglify.xml",
+        "lib/net40/NUglify.dll",
+        "lib/net40/NUglify.xml",
+        "lib/netstandard1.3/NUglify.dll",
+        "lib/netstandard1.3/NUglify.xml",
+        "lib/netstandard2.0/NUglify.dll",
+        "lib/netstandard2.0/NUglify.xml",
+        "nuglify.1.5.14.nupkg.sha512",
+        "nuglify.nuspec"
+      ]
+    },
     "SQLitePCLRaw.bundle_e_sqlite3/2.1.6": {
       "sha512": "BmAf6XWt4TqtowmiWe4/5rRot6GerAeklmOPfviOvwLoF5WwgxcJHAxZtySuyW9r9w+HLILnm8VfJFLCUJYW8A==",
       "type": "package",
@@ -8348,6 +8453,8 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "BuildBundlerMinifier >= 3.2.449",
+      "BundlerMinifier.Core >= 3.2.449",
       "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore >= 8.0.11",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 8.0.11",
       "Microsoft.AspNetCore.Identity.UI >= 8.0.11",
@@ -8407,6 +8514,14 @@
       "net8.0": {
         "targetAlias": "net8.0",
         "dependencies": {
+          "BuildBundlerMinifier": {
+            "target": "Package",
+            "version": "[3.2.449, )"
+          },
+          "BundlerMinifier.Core": {
+            "target": "Package",
+            "version": "[3.2.449, )"
+          },
           "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
             "target": "Package",
             "version": "[8.0.11, )"

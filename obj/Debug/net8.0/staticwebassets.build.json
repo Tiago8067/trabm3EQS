@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "njcXQnos0ZKyVnJZKuXS5i7dHODvfMxAr1Ck0zGyPXk=",
+  "Hash": "kGIUgq+Ksr30Wqu4zXSgl8ADF0/insZw18AvsE9QJ8g=",
   "Source": "testAuten",
   "BasePath": "_content/testAuten",
   "Mode": "Default",
@@ -1319,6 +1319,27 @@
       "OriginalItemSpec": "C:\\Users\\Utilizador\\source\\repos\\testAuten\\testAuten\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\testAuten.bundle.scp.css"
     },
     {
+      "Identity": "C:\\Users\\Utilizador\\source\\repos\\testAuten\\testAuten\\wwwroot\\css\\auth.css",
+      "SourceId": "testAuten",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Utilizador\\source\\repos\\testAuten\\testAuten\\wwwroot\\",
+      "BasePath": "_content/testAuten",
+      "RelativePath": "css/auth#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "1cij3pleo2",
+      "Integrity": "b2W3gzyRVXCh0U4qwG9eOKRddYIQ8kV2M0O98KwYBvY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\auth.css"
+    },
+    {
       "Identity": "C:\\Users\\Utilizador\\source\\repos\\testAuten\\testAuten\\wwwroot\\css\\site.css",
       "SourceId": "testAuten",
       "SourceType": "Discovered",
@@ -1333,11 +1354,32 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "kpw3fw42r7",
-      "Integrity": "WHdnlJoKKXl8WiNa7G22sP80nh2Gop+PiNSCZQROaEc=",
+      "Fingerprint": "zy8dhfu523",
+      "Integrity": "VSSqygclk6S09KGfzQtqT7yZOT24nndSMPgjsyIiG40=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "C:\\Users\\Utilizador\\source\\repos\\testAuten\\testAuten\\wwwroot\\css\\site.min.css",
+      "SourceId": "testAuten",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Utilizador\\source\\repos\\testAuten\\testAuten\\wwwroot\\",
+      "BasePath": "_content/testAuten",
+      "RelativePath": "css/site.min#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "tcldljvvxo",
+      "Integrity": "o0F0I+9LXsrhnWpW8PW6GNvAcEEfyeqhC/tHVi8rGG0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\site.min.css"
     },
     {
       "Identity": "C:\\Users\\Utilizador\\source\\repos\\testAuten\\testAuten\\wwwroot\\favicon.ico",
@@ -1380,6 +1422,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\site.js"
+    },
+    {
+      "Identity": "C:\\Users\\Utilizador\\source\\repos\\testAuten\\testAuten\\wwwroot\\js\\site.min.js",
+      "SourceId": "testAuten",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Utilizador\\source\\repos\\testAuten\\testAuten\\wwwroot\\",
+      "BasePath": "_content/testAuten",
+      "RelativePath": "js/site.min#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "66hr64y572",
+      "Integrity": "rkUuJBkKVIM9qWe4KcOei6BjpWqLlJO7rCqTpIR+C68=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\site.min.js"
     },
     {
       "Identity": "C:\\Users\\Utilizador\\source\\repos\\testAuten\\testAuten\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
@@ -2581,6 +2644,88 @@
   ],
   "Endpoints": [
     {
+      "Route": "css/auth.1cij3pleo2.css",
+      "AssetFile": "C:\\Users\\Utilizador\\source\\repos\\testAuten\\testAuten\\wwwroot\\css\\auth.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "972"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"b2W3gzyRVXCh0U4qwG9eOKRddYIQ8kV2M0O98KwYBvY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 28 Nov 2024 15:35:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1cij3pleo2"
+        },
+        {
+          "Name": "label",
+          "Value": "css/auth.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-b2W3gzyRVXCh0U4qwG9eOKRddYIQ8kV2M0O98KwYBvY="
+        }
+      ]
+    },
+    {
+      "Route": "css/auth.css",
+      "AssetFile": "C:\\Users\\Utilizador\\source\\repos\\testAuten\\testAuten\\wwwroot\\css\\auth.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "972"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"b2W3gzyRVXCh0U4qwG9eOKRddYIQ8kV2M0O98KwYBvY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 28 Nov 2024 15:35:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-b2W3gzyRVXCh0U4qwG9eOKRddYIQ8kV2M0O98KwYBvY="
+        }
+      ]
+    },
+    {
       "Route": "css/site.css",
       "AssetFile": "C:\\Users\\Utilizador\\source\\repos\\testAuten\\testAuten\\wwwroot\\css\\site.css",
       "Selectors": [],
@@ -2591,7 +2736,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2269"
+          "Value": "2272"
         },
         {
           "Name": "Content-Type",
@@ -2599,11 +2744,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"WHdnlJoKKXl8WiNa7G22sP80nh2Gop+PiNSCZQROaEc=\""
+          "Value": "\"VSSqygclk6S09KGfzQtqT7yZOT24nndSMPgjsyIiG40=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 28 Nov 2024 12:44:52 GMT"
+          "Value": "Thu, 28 Nov 2024 15:56:38 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2613,13 +2758,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-WHdnlJoKKXl8WiNa7G22sP80nh2Gop+PiNSCZQROaEc="
+          "Value": "sha256-VSSqygclk6S09KGfzQtqT7yZOT24nndSMPgjsyIiG40="
         }
       ]
     },
     {
-      "Route": "css/site.kpw3fw42r7.css",
-      "AssetFile": "C:\\Users\\Utilizador\\source\\repos\\testAuten\\testAuten\\wwwroot\\css\\site.css",
+      "Route": "css/site.min.css",
+      "AssetFile": "C:\\Users\\Utilizador\\source\\repos\\testAuten\\testAuten\\wwwroot\\css\\site.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2628,7 +2773,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2269"
+          "Value": "3243"
         },
         {
           "Name": "Content-Type",
@@ -2636,11 +2781,48 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"WHdnlJoKKXl8WiNa7G22sP80nh2Gop+PiNSCZQROaEc=\""
+          "Value": "\"o0F0I+9LXsrhnWpW8PW6GNvAcEEfyeqhC/tHVi8rGG0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 28 Nov 2024 12:44:52 GMT"
+          "Value": "Thu, 28 Nov 2024 15:56:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-o0F0I+9LXsrhnWpW8PW6GNvAcEEfyeqhC/tHVi8rGG0="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.min.tcldljvvxo.css",
+      "AssetFile": "C:\\Users\\Utilizador\\source\\repos\\testAuten\\testAuten\\wwwroot\\css\\site.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3243"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"o0F0I+9LXsrhnWpW8PW6GNvAcEEfyeqhC/tHVi8rGG0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 28 Nov 2024 15:56:41 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2650,7 +2832,52 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "kpw3fw42r7"
+          "Value": "tcldljvvxo"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.min.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-o0F0I+9LXsrhnWpW8PW6GNvAcEEfyeqhC/tHVi8rGG0="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.zy8dhfu523.css",
+      "AssetFile": "C:\\Users\\Utilizador\\source\\repos\\testAuten\\testAuten\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2272"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VSSqygclk6S09KGfzQtqT7yZOT24nndSMPgjsyIiG40=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 28 Nov 2024 15:56:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zy8dhfu523"
         },
         {
           "Name": "label",
@@ -2658,7 +2885,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-WHdnlJoKKXl8WiNa7G22sP80nh2Gop+PiNSCZQROaEc="
+          "Value": "sha256-VSSqygclk6S09KGfzQtqT7yZOT24nndSMPgjsyIiG40="
         }
       ]
     },
@@ -4998,6 +5225,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-o7lve8iz/yPsRSegR1QqeGsBL6J39hUWFi08cdAxrhs="
+        }
+      ]
+    },
+    {
+      "Route": "js/site.min.66hr64y572.js",
+      "AssetFile": "C:\\Users\\Utilizador\\source\\repos\\testAuten\\testAuten\\wwwroot\\js\\site.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "305"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rkUuJBkKVIM9qWe4KcOei6BjpWqLlJO7rCqTpIR+C68=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 28 Nov 2024 15:56:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "66hr64y572"
+        },
+        {
+          "Name": "label",
+          "Value": "js/site.min.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-rkUuJBkKVIM9qWe4KcOei6BjpWqLlJO7rCqTpIR+C68="
+        }
+      ]
+    },
+    {
+      "Route": "js/site.min.js",
+      "AssetFile": "C:\\Users\\Utilizador\\source\\repos\\testAuten\\testAuten\\wwwroot\\js\\site.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "305"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rkUuJBkKVIM9qWe4KcOei6BjpWqLlJO7rCqTpIR+C68=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 28 Nov 2024 15:56:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-rkUuJBkKVIM9qWe4KcOei6BjpWqLlJO7rCqTpIR+C68="
         }
       ]
     },
